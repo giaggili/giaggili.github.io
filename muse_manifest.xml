@@ -1,31 +1,31 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="example.html" resolutions="1x" timestamp="1488205400666">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="example.html" resolutions="1x" timestamp="1488296339934">
   <folder name="css">
     <file name="site_global.css" crc="4225950270"/>
-    <file name="master_a-master.css" crc="258620912" ref="about:index:join-us:service:membership:partners:activities:contact"/>
-    <file name="nomq_preview_master_a-master.css" crc="316894913" ref="about:index:join-us:service:membership:partners:activities:contact"/>
-    <file name="about.css" crc="330493044" ref="about"/>
-    <file name="nomq_about.css" crc="4049490134" ref="about"/>
+    <file name="master_a-master.css" crc="3954570800" ref="about:index:join-us:service:membership:partners:activities:contact"/>
+    <file name="nomq_preview_master_a-master.css" crc="305813699" ref="about:index:join-us:service:membership:partners:activities:contact"/>
+    <file name="about.css" crc="3942738294" ref="about"/>
+    <file name="nomq_about.css" crc="4160526096" ref="about"/>
     <file name="iefonts_about.css" crc="3965269867" ref="about"/>
-    <file name="index.css" crc="3955521770" ref="index"/>
-    <file name="nomq_index.css" crc="3966261151" ref="index"/>
+    <file name="index.css" crc="471998741" ref="index"/>
+    <file name="nomq_index.css" crc="426972407" ref="index"/>
     <file name="iefonts_index.css" crc="3965269867" ref="index"/>
-    <file name="join-us.css" crc="330493044" ref="join-us"/>
-    <file name="nomq_join-us.css" crc="4049490134" ref="join-us"/>
+    <file name="join-us.css" crc="3942738294" ref="join-us"/>
+    <file name="nomq_join-us.css" crc="4160526096" ref="join-us"/>
     <file name="iefonts_join-us.css" crc="3965269867" ref="join-us"/>
-    <file name="service.css" crc="330493044" ref="service"/>
-    <file name="nomq_service.css" crc="4049490134" ref="service"/>
+    <file name="service.css" crc="3942738294" ref="service"/>
+    <file name="nomq_service.css" crc="4160526096" ref="service"/>
     <file name="iefonts_service.css" crc="3965269867" ref="service"/>
-    <file name="membership.css" crc="330493044" ref="membership"/>
-    <file name="nomq_membership.css" crc="4049490134" ref="membership"/>
+    <file name="membership.css" crc="3942738294" ref="membership"/>
+    <file name="nomq_membership.css" crc="4160526096" ref="membership"/>
     <file name="iefonts_membership.css" crc="3965269867" ref="membership"/>
-    <file name="partners.css" crc="330493044" ref="partners"/>
-    <file name="nomq_partners.css" crc="4049490134" ref="partners"/>
+    <file name="partners.css" crc="3942738294" ref="partners"/>
+    <file name="nomq_partners.css" crc="4160526096" ref="partners"/>
     <file name="iefonts_partners.css" crc="3965269867" ref="partners"/>
-    <file name="activities.css" crc="330493044" ref="activities"/>
-    <file name="nomq_activities.css" crc="4049490134" ref="activities"/>
+    <file name="activities.css" crc="3942738294" ref="activities"/>
+    <file name="nomq_activities.css" crc="4160526096" ref="activities"/>
     <file name="iefonts_activities.css" crc="3965269867" ref="activities"/>
-    <file name="contact.css" crc="330493044" ref="contact"/>
-    <file name="nomq_contact.css" crc="4049490134" ref="contact"/>
+    <file name="contact.css" crc="3942738294" ref="contact"/>
+    <file name="nomq_contact.css" crc="4160526096" ref="contact"/>
     <file name="iefonts_contact.css" crc="3965269867" ref="contact"/>
   </folder>
   <folder name="scripts">
@@ -69,12 +69,12 @@
     <file name="1_dtbuildingxf.jpg" crc="3903753417" ref="index"/>
     <file name="drone.jpg" crc="324286421" ref="index"/>
   </folder>
-  <file name="service.html" crc="4158590192" seo="true" mt="1488205304625" redirect="true"/>
-  <file name="activities.html" crc="465243033" seo="true" mt="1488205304625" redirect="true"/>
-  <file name="contact.html" crc="499189080" seo="true" mt="1488205304625" redirect="true"/>
-  <file name="join-us.html" crc="3935279805" seo="true" mt="1488205304625" redirect="true"/>
-  <file name="about.html" crc="97052369" seo="true" mt="1488205304625" redirect="true"/>
-  <file name="index.html" crc="41386312" seo="true" mt="1488205304625" redirect="true"/>
-  <file name="membership.html" crc="4163776779" seo="true" mt="1488205304625" redirect="true"/>
-  <file name="partners.html" crc="166129998" seo="true" mt="1488205304625" redirect="true"/>
+  <file name="service.html" crc="376681942" seo="true" mt="1488295911521" redirect="true"/>
+  <file name="activities.html" crc="4023738146" seo="true" mt="1488295911521" redirect="true"/>
+  <file name="contact.html" crc="412322225" seo="true" mt="1488295911521" redirect="true"/>
+  <file name="join-us.html" crc="3923823445" seo="true" mt="1488295911521" redirect="true"/>
+  <file name="about.html" crc="34766367" seo="true" mt="1488295911521" redirect="true"/>
+  <file name="index.html" crc="33906220" seo="true" mt="1488295911521" redirect="true"/>
+  <file name="membership.html" crc="341160883" seo="true" mt="1488295911521" redirect="true"/>
+  <file name="partners.html" crc="3982030022" seo="true" mt="1488295911521" redirect="true"/>
 </manifest>
