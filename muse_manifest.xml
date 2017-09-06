@@ -1,25 +1,25 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="example.html" resolutions="1x" timestamp="1504693802324">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="example.html" resolutions="1x" timestamp="1504694743640">
   <folder name="css">
     <file name="site_global.css" crc="4189370644"/>
-    <file name="master_a-master.css" crc="3799424290" ref="index:work-with-us:about:what-we-do:join-us:services"/>
+    <file name="master_a-master.css" crc="45721612" ref="index:work-with-us:about:what-we-do:join-us:services"/>
     <file name="nomq_preview_master_a-master.css" crc="135466790" ref="index:work-with-us:about:what-we-do:join-us:services"/>
-    <file name="index.css" crc="95422687" ref="index"/>
-    <file name="nomq_index.css" crc="4101318599" ref="index"/>
+    <file name="index.css" crc="415779194" ref="index"/>
+    <file name="nomq_index.css" crc="290183865" ref="index"/>
     <file name="iefonts_index.css" crc="226991098" ref="index"/>
-    <file name="work-with-us.css" crc="3898119563" ref="work-with-us"/>
+    <file name="work-with-us.css" crc="3992313147" ref="work-with-us"/>
     <file name="nomq_work-with-us.css" crc="138251472" ref="work-with-us"/>
     <file name="iefonts_work-with-us.css" crc="226991098" ref="work-with-us"/>
-    <file name="about.css" crc="4180566963" ref="about"/>
+    <file name="about.css" crc="4101359283" ref="about"/>
     <file name="nomq_about.css" crc="3856378296" ref="about"/>
     <file name="iefonts_about.css" crc="226991098" ref="about"/>
-    <file name="what-we-do.css" crc="214803099" ref="what-we-do"/>
+    <file name="what-we-do.css" crc="4153952779" ref="what-we-do"/>
     <file name="nomq_what-we-do.css" crc="270645472" ref="what-we-do"/>
     <file name="iefonts_what-we-do.css" crc="226991098" ref="what-we-do"/>
-    <file name="join-us.css" crc="279631665" ref="join-us"/>
-    <file name="nomq_join-us.css" crc="3992967714" ref="join-us"/>
+    <file name="join-us.css" crc="44355319" ref="join-us"/>
+    <file name="nomq_join-us.css" crc="4117845699" ref="join-us"/>
     <file name="iefonts_join-us.css" crc="226991098" ref="join-us"/>
-    <file name="services.css" crc="3939292937" ref="services"/>
-    <file name="nomq_services.css" crc="268175093" ref="services"/>
+    <file name="services.css" crc="4253039448" ref="services"/>
+    <file name="nomq_services.css" crc="153305671" ref="services"/>
     <file name="iefonts_services.css" crc="226991098" ref="services"/>
   </folder>
   <folder name="scripts">
@@ -111,11 +111,21 @@
     <file name="1_openday_welcome.jpg" crc="3973916512" ref="index"/>
     <file name="1_dtbuildingxf.jpg" crc="3903753417" ref="index"/>
     <file name="drone.jpg" crc="324286421" ref="index"/>
+    <file name="189575262730227796-u14659-fr2.jpg" crc="154996047" ref="services"/>
+    <file name="jadeli-u15164-fr2.png" crc="3804015655" ref="work-with-us"/>
+    <file name="rules-u14296-fr2.jpg" crc="189105590" ref="join-us"/>
+    <file name="dsc00576-u14302-fr2.jpg" crc="90674178" ref="join-us"/>
+    <file name="mitlogo-crop-u133104.jpg" crc="4273441946" ref="about"/>
+    <file name="5pic-u13365-fr2.jpg" crc="172526784" ref="about"/>
+    <file name="lucio_small-crop-u134123.jpg" crc="3840976214" ref="about"/>
+    <file name="jade1_small-crop-u134053.jpg" crc="107397721" ref="about"/>
+    <file name="danny_small-crop-u134263.jpg" crc="3937468609" ref="about"/>
+    <file name="pamela_small-crop-u134193.jpg" crc="4242225376" ref="about"/>
   </folder>
-  <file name="services.html" crc="4241909246" seo="true" mt="1504693581826" redirect="true"/>
-  <file name="what-we-do.html" crc="4110851182" seo="true" mt="1504693581826" redirect="true"/>
-  <file name="work-with-us.html" crc="411424694" seo="true" mt="1504693581826" redirect="true"/>
-  <file name="join-us.html" crc="515226383" seo="true" mt="1504693581826" redirect="true"/>
-  <file name="about.html" crc="196850453" seo="true" mt="1504693581826" redirect="true"/>
-  <file name="index.html" crc="476014588" seo="true" mt="1504693581826" redirect="true"/>
+  <file name="services.html" crc="3944011141" seo="true" mt="1504694556583" redirect="true"/>
+  <file name="what-we-do.html" crc="4278114525" seo="true" mt="1504694556583" redirect="true"/>
+  <file name="work-with-us.html" crc="506018892" seo="true" mt="1504694556583" redirect="true"/>
+  <file name="join-us.html" crc="4030209812" seo="true" mt="1504694556583" redirect="true"/>
+  <file name="about.html" crc="5137120" seo="true" mt="1504694556583" redirect="true"/>
+  <file name="index.html" crc="89616572" seo="true" mt="1504694556583" redirect="true"/>
 </manifest>
