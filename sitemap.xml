@@ -2,145 +2,199 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://example.html/index.html</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/work-with-us.html</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/what-we-do.html</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/services.html</loc>
-    <lastmod>2017-03-06</lastmod>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.html/about.html</loc>
-    <lastmod>2017-03-06</lastmod>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.html/join-us.html</loc>
-    <lastmod>2017-03-06</lastmod>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.html/images/pasted-svg-37x376.svg</loc>
-    <lastmod>2017-03-06</lastmod>
+    <loc>http://example.html/work-with-us.html</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/what-we-do.html</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/services.html</loc>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.html/images/pasted-svg-37x377.svg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/pasted-svg-115847x41.svg</loc>
-    <lastmod>2017-03-06</lastmod>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.html/images/3dhubs.svg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/xf_iconblack.svg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/pasted-svg-37x374.svg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/pasted-svg-37x375.svg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/lucio_small.jpg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/jade1_small.jpg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/danny_small.jpg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/pamela_small.jpg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/grey_small.jpg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/pasted-svg-37x373.svg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/pasted-svg-37x372.svg</loc>
-    <lastmod>2017-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.html/images/pasted-svg-37x37.svg</loc>
-    <lastmod>2017-03-06</lastmod>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.html/images/pasted-svg-1112635x589.svg</loc>
-    <lastmod>2017-03-06</lastmod>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/xf_iconblack.svg</loc>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.html/images/xf_iconredbt.svg</loc>
-    <lastmod>2017-03-06</lastmod>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/iconmonstr-generation-12.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/iconmonstr-generation-9.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/robot.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/group-16.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/pasted-svg-37x375.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/pasted-svg-37x376.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/pasted-svg-115847x41.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/menu-alt-512.png</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/iconmonstr-generation-16.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/iconmonstr-generation-5.svg</loc>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.html/images/mitlogo.jpg</loc>
-    <lastmod>2017-03-06</lastmod>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/lucio_small.jpg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/jade1_small.jpg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/danny_small.jpg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/pamela_small.jpg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/grey_small.jpg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/pasted-svg-37x374.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/pasted-svg-37x373.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/pasted-svg-37x372.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/group-77.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/pasted-svg-37x37.svg</loc>
+    <lastmod>2017-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.html/images/party.svg</loc>
+    <lastmod>2017-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
