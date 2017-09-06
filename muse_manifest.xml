@@ -1,25 +1,25 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="example.html" resolutions="1x" timestamp="1504694743640">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="example.html" resolutions="1x" timestamp="1504695695227">
   <folder name="css">
     <file name="site_global.css" crc="4189370644"/>
     <file name="master_a-master.css" crc="45721612" ref="index:work-with-us:about:what-we-do:join-us:services"/>
     <file name="nomq_preview_master_a-master.css" crc="135466790" ref="index:work-with-us:about:what-we-do:join-us:services"/>
-    <file name="index.css" crc="415779194" ref="index"/>
-    <file name="nomq_index.css" crc="290183865" ref="index"/>
+    <file name="index.css" crc="4084870251" ref="index"/>
+    <file name="nomq_index.css" crc="138357590" ref="index"/>
     <file name="iefonts_index.css" crc="226991098" ref="index"/>
-    <file name="work-with-us.css" crc="3992313147" ref="work-with-us"/>
-    <file name="nomq_work-with-us.css" crc="138251472" ref="work-with-us"/>
+    <file name="work-with-us.css" crc="99094101" ref="work-with-us"/>
+    <file name="nomq_work-with-us.css" crc="469160125" ref="work-with-us"/>
     <file name="iefonts_work-with-us.css" crc="226991098" ref="work-with-us"/>
-    <file name="about.css" crc="4101359283" ref="about"/>
-    <file name="nomq_about.css" crc="3856378296" ref="about"/>
+    <file name="about.css" crc="4098169534" ref="about"/>
+    <file name="nomq_about.css" crc="137922493" ref="about"/>
     <file name="iefonts_about.css" crc="226991098" ref="about"/>
-    <file name="what-we-do.css" crc="4153952779" ref="what-we-do"/>
-    <file name="nomq_what-we-do.css" crc="270645472" ref="what-we-do"/>
+    <file name="what-we-do.css" crc="340108891" ref="what-we-do"/>
+    <file name="nomq_what-we-do.css" crc="3971959893" ref="what-we-do"/>
     <file name="iefonts_what-we-do.css" crc="226991098" ref="what-we-do"/>
-    <file name="join-us.css" crc="44355319" ref="join-us"/>
-    <file name="nomq_join-us.css" crc="4117845699" ref="join-us"/>
+    <file name="join-us.css" crc="4166151574" ref="join-us"/>
+    <file name="nomq_join-us.css" crc="405027544" ref="join-us"/>
     <file name="iefonts_join-us.css" crc="226991098" ref="join-us"/>
-    <file name="services.css" crc="4253039448" ref="services"/>
-    <file name="nomq_services.css" crc="153305671" ref="services"/>
+    <file name="services.css" crc="21488811" ref="services"/>
+    <file name="nomq_services.css" crc="4284877225" ref="services"/>
     <file name="iefonts_services.css" crc="226991098" ref="services"/>
   </folder>
   <folder name="scripts">
@@ -122,10 +122,10 @@
     <file name="danny_small-crop-u134263.jpg" crc="3937468609" ref="about"/>
     <file name="pamela_small-crop-u134193.jpg" crc="4242225376" ref="about"/>
   </folder>
-  <file name="services.html" crc="3944011141" seo="true" mt="1504694556583" redirect="true"/>
-  <file name="what-we-do.html" crc="4278114525" seo="true" mt="1504694556583" redirect="true"/>
-  <file name="work-with-us.html" crc="506018892" seo="true" mt="1504694556583" redirect="true"/>
-  <file name="join-us.html" crc="4030209812" seo="true" mt="1504694556583" redirect="true"/>
-  <file name="about.html" crc="5137120" seo="true" mt="1504694556583" redirect="true"/>
-  <file name="index.html" crc="89616572" seo="true" mt="1504694556583" redirect="true"/>
+  <file name="services.html" crc="320843260" seo="true" mt="1504695527425" redirect="true"/>
+  <file name="what-we-do.html" crc="3948536874" seo="true" mt="1504695527425" redirect="true"/>
+  <file name="work-with-us.html" crc="4066712998" seo="true" mt="1504695527425" redirect="true"/>
+  <file name="join-us.html" crc="4207617817" seo="true" mt="1504695527425" redirect="true"/>
+  <file name="about.html" crc="40303677" seo="true" mt="1504695527425" redirect="true"/>
+  <file name="index.html" crc="3996361442" seo="true" mt="1504695527425" redirect="true"/>
 </manifest>
