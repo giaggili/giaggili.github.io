@@ -1,25 +1,25 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="example.html" resolutions="1x" timestamp="1504696358484">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="example.html" resolutions="1x" timestamp="1505212003213">
   <folder name="css">
     <file name="site_global.css" crc="4189370644"/>
-    <file name="master_a-master.css" crc="270515354" ref="index:work-with-us:about:what-we-do:join-us:services"/>
-    <file name="nomq_preview_master_a-master.css" crc="4188907187" ref="index:work-with-us:about:what-we-do:join-us:services"/>
-    <file name="index.css" crc="2793507" ref="index"/>
-    <file name="nomq_index.css" crc="4035712374" ref="index"/>
+    <file name="master_a-master.css" crc="3904764594" ref="index:work-with-us:about:what-we-do:join-us:services"/>
+    <file name="nomq_preview_master_a-master.css" crc="459421690" ref="index:work-with-us:about:what-we-do:join-us:services"/>
+    <file name="index.css" crc="3878601727" ref="index"/>
+    <file name="nomq_index.css" crc="4116561785" ref="index"/>
     <file name="iefonts_index.css" crc="226991098" ref="index"/>
-    <file name="work-with-us.css" crc="213036778" ref="work-with-us"/>
-    <file name="nomq_work-with-us.css" crc="274071986" ref="work-with-us"/>
+    <file name="work-with-us.css" crc="528469944" ref="work-with-us"/>
+    <file name="nomq_work-with-us.css" crc="375416960" ref="work-with-us"/>
     <file name="iefonts_work-with-us.css" crc="226991098" ref="work-with-us"/>
-    <file name="about.css" crc="4268429501" ref="about"/>
-    <file name="nomq_about.css" crc="234635536" ref="about"/>
+    <file name="about.css" crc="416841213" ref="about"/>
+    <file name="nomq_about.css" crc="3873504800" ref="about"/>
     <file name="iefonts_about.css" crc="226991098" ref="about"/>
-    <file name="what-we-do.css" crc="3943543948" ref="what-we-do"/>
-    <file name="nomq_what-we-do.css" crc="3925036854" ref="what-we-do"/>
+    <file name="what-we-do.css" crc="4246007378" ref="what-we-do"/>
+    <file name="nomq_what-we-do.css" crc="126138226" ref="what-we-do"/>
     <file name="iefonts_what-we-do.css" crc="226991098" ref="what-we-do"/>
-    <file name="join-us.css" crc="86653717" ref="join-us"/>
-    <file name="nomq_join-us.css" crc="3785903839" ref="join-us"/>
+    <file name="join-us.css" crc="4034534638" ref="join-us"/>
+    <file name="nomq_join-us.css" crc="239871208" ref="join-us"/>
     <file name="iefonts_join-us.css" crc="226991098" ref="join-us"/>
-    <file name="services.css" crc="4198163102" ref="services"/>
-    <file name="nomq_services.css" crc="4238502469" ref="services"/>
+    <file name="services.css" crc="457647386" ref="services"/>
+    <file name="nomq_services.css" crc="3951999477" ref="services"/>
     <file name="iefonts_services.css" crc="226991098" ref="services"/>
   </folder>
   <folder name="scripts">
@@ -32,6 +32,10 @@
     <file name="jquery.scrolleffects.js" crc="4065090679" ref="services:join-us:about:index"/>
     <file name="jquery.museresponsive.js" crc="4146931122" ref="services:what-we-do:work-with-us:join-us:about:index"/>
     <file name="require.js" crc="244322403" ref="services:what-we-do:work-with-us:join-us:about:index"/>
+    <file name="webpro.js" crc="3848665353" ref="services:what-we-do:work-with-us:join-us:index:about"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="services:what-we-do:work-with-us:join-us:index:about"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="services:what-we-do:work-with-us:join-us:index:about"/>
+    <file name="touchswipe.js" crc="404375771" ref="services:what-we-do:work-with-us:join-us:index:about"/>
   </folder>
   <folder name="images">
     <file name="pasted-svg-37x37.svg" crc="261623733" seo="true" ref="services:what-we-do:work-with-us:join-us:about:index"/>
@@ -48,8 +52,6 @@
     <file name="pasted svg 37x37_poster_6.png" crc="86780341" ref="services"/>
     <file name="pasted-svg-37x377.svg" crc="4214510376" seo="true" ref="services:what-we-do:work-with-us:join-us:about:index"/>
     <file name="pasted svg 37x37_poster_7.png" crc="181492977" ref="services"/>
-    <file name="3dhubs.svg" crc="272194916" seo="true" ref="services:what-we-do:work-with-us:join-us:about:index"/>
-    <file name="3dhubs_poster_.png" crc="3957849126" ref="services"/>
     <file name="pasted-svg-1112635x589.svg" crc="3914277671" seo="true" ref="services:what-we-do:work-with-us:join-us:about:index"/>
     <file name="pasted svg 1112635x589_poster_.png" crc="3820455764" ref="services"/>
     <file name="xf_iconblack.svg" crc="138723851" seo="true" ref="services:what-we-do:work-with-us:join-us:about:index"/>
@@ -89,24 +91,11 @@
     <file name="dsc00576-u14302-fr.jpg" crc="4002016452" ref="join-us"/>
     <file name="about.jpg" crc="321708618" ref="about"/>
     <file name="mitlogo.jpg" crc="441487461" seo="true" ref="about"/>
-    <file name="5pic.jpg" crc="4067866450" ref="about"/>
+    <file name="5pic.jpg" crc="86921649" ref="about"/>
     <file name="lucio_small.jpg" crc="495201983" seo="true" ref="about"/>
     <file name="jade1_small.jpg" crc="8262001" seo="true" ref="about"/>
     <file name="danny_small.jpg" crc="4162135799" seo="true" ref="about"/>
     <file name="pamela_small.jpg" crc="330102670" seo="true" ref="about"/>
-    <file name="grey_small.jpg" crc="291794181" seo="true" ref="about"/>
-    <file name="mitlogo-crop-u13310.jpg" crc="3824123908" ref="about"/>
-    <file name="lucio_small-crop-u13412.jpg" crc="4079522811" ref="about"/>
-    <file name="jade1_small-crop-u13405.jpg" crc="399295554" ref="about"/>
-    <file name="danny_small-crop-u13426.jpg" crc="3816855355" ref="about"/>
-    <file name="pamela_small-crop-u13419.jpg" crc="481566572" ref="about"/>
-    <file name="mitlogo-crop-u133102.jpg" crc="4040071892" ref="about"/>
-    <file name="mitlogo-crop-u133103.jpg" crc="4028336476" ref="about"/>
-    <file name="5pic-u13365-fr.jpg" crc="3914617614" ref="about"/>
-    <file name="lucio_small-crop-u134122.jpg" crc="3935738738" ref="about"/>
-    <file name="jade1_small-crop-u134052.jpg" crc="480643137" ref="about"/>
-    <file name="danny_small-crop-u134262.jpg" crc="92251332" ref="about"/>
-    <file name="pamela_small-crop-u134192.jpg" crc="469512809" ref="about"/>
     <file name="2_locket.jpg" crc="4131826604" ref="index"/>
     <file name="1_openday_welcome.jpg" crc="3973916512" ref="index"/>
     <file name="1_dtbuildingxf.jpg" crc="3903753417" ref="index"/>
@@ -115,17 +104,18 @@
     <file name="jadeli-u15164-fr2.png" crc="3804015655" ref="work-with-us"/>
     <file name="rules-u14296-fr2.jpg" crc="189105590" ref="join-us"/>
     <file name="dsc00576-u14302-fr2.jpg" crc="90674178" ref="join-us"/>
-    <file name="mitlogo-crop-u133104.jpg" crc="4273441946" ref="about"/>
-    <file name="5pic-u13365-fr2.jpg" crc="172526784" ref="about"/>
-    <file name="lucio_small-crop-u134123.jpg" crc="3840976214" ref="about"/>
-    <file name="jade1_small-crop-u134053.jpg" crc="107397721" ref="about"/>
-    <file name="danny_small-crop-u134263.jpg" crc="3937468609" ref="about"/>
-    <file name="pamela_small-crop-u134193.jpg" crc="4242225376" ref="about"/>
+    <file name="xf_wx_qr.jpg" crc="4064785778" seo="true" ref="services:what-we-do:work-with-us:join-us:index:about"/>
+    <file name="menu_black.png" crc="247701263" seo="true" ref="services:what-we-do:work-with-us:join-us:index:about"/>
+    <file name="about-u36071-fr.jpg" crc="129557572" ref="about"/>
+    <file name="mitlogo232x243.jpg" crc="3782435765" seo="true" ref="about"/>
+    <file name="mitlogo164x173.jpg" crc="4104012976" seo="true" ref="about"/>
+    <file name="mitlogo99x99.jpg" crc="3842630660" seo="true" ref="about"/>
+    <file name="5pic-u36080-fr.jpg" crc="46721924" ref="about"/>
   </folder>
-  <file name="services.html" crc="353501707" seo="true" mt="1504696182662" redirect="true"/>
-  <file name="what-we-do.html" crc="4279200635" seo="true" mt="1504696182662" redirect="true"/>
-  <file name="work-with-us.html" crc="4082477624" seo="true" mt="1504696182662" redirect="true"/>
-  <file name="join-us.html" crc="4115653960" seo="true" mt="1504696182662" redirect="true"/>
-  <file name="about.html" crc="4018619865" seo="true" mt="1504696182662" redirect="true"/>
-  <file name="index.html" crc="4086681657" seo="true" mt="1504696182662" redirect="true"/>
+  <file name="services.html" crc="222902642" seo="true" mt="1505211789096" redirect="true"/>
+  <file name="what-we-do.html" crc="3890650668" seo="true" mt="1505211789096" redirect="true"/>
+  <file name="work-with-us.html" crc="3941563051" seo="true" mt="1505211789096" redirect="true"/>
+  <file name="join-us.html" crc="394995703" seo="true" mt="1505211789096" redirect="true"/>
+  <file name="about.html" crc="230728914" seo="true" mt="1505211789096" redirect="true"/>
+  <file name="index.html" crc="91827538" seo="true" mt="1505211789096" redirect="true"/>
 </manifest>

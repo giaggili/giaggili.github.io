@@ -11,19 +11,19 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "jquery.museresponsive.js", "require.js", "work-with-us.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musepolyfill.bgsize.js", "jquery.museresponsive.js", "require.js", "work-with-us.css"], "outOfDate":[]};
 </script>
   
   <title>Work with us</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4189370644"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=270515354"/>
-  <link rel="stylesheet" type="text/css" href="css/work-with-us.css?crc=213036778" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3904764594"/>
+  <link rel="stylesheet" type="text/css" href="css/work-with-us.css?crc=528469944" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_work-with-us.css?crc=226991098"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=4188907187"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_work-with-us.css?crc=274071986" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=459421690"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_work-with-us.css?crc=375416960" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -41,13 +41,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="browser_width grpelem shared_content" id="u12899-bw" data-content-guid="u12899-bw_content">
      <div id="u12899"><!-- simple frame --></div>
     </div>
-    <div class="clearfix grpelem shared_content" id="pu6682" data-content-guid="pu6682_content"><!-- group -->
-     <div class="browser_width mse_pre_init" id="u6682-bw">
-      <a class="nonblock nontext" id="u6682" href="index.html"><!-- simple frame --></a>
+    <div class="clearfix grpelem" id="pu6682"><!-- group -->
+     <div class="browser_width mse_pre_init shared_content" id="u6682-bw" data-content-guid="u6682-bw_content">
+      <div id="u6682"><!-- simple frame --></div>
      </div>
-     <div class="clip_frame mse_pre_init" id="u2355"><!-- svg -->
-      <img class="svg temp_no_img_src" id="u2356" data-orig-src="images/pasted-svg-1112635x589.svg?crc=3914277671" width="200" height="89" alt="" data-mu-svgfallback="images/pasted%20svg%201112635x589_poster_.png?crc=3820455764" src="images/blank.gif?crc=4208392903"/>
-     </div>
+     <a class="nonblock nontext clip_frame mse_pre_init" id="u2355" href="index.html"><!-- svg --><img class="svg temp_no_img_src" id="u2356" data-orig-src="images/pasted-svg-1112635x589.svg?crc=3914277671" width="200" height="89" alt="" data-mu-svgfallback="images/pasted%20svg%201112635x589_poster_.png?crc=3820455764" src="images/blank.gif?crc=4208392903"/></a>
     </div>
     <div class="pointer_cursor Button clearfix mse_pre_init shared_content" id="buttonu12919" title="Home" data-content-guid="buttonu12919_content"><!-- container box -->
      <a class="block" href="index.html"><!-- Block link tag --></a>
@@ -56,11 +54,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <img class="svg temp_no_img_src" id="u12931" data-orig-src="images/xf_iconredbt.svg?crc=275177441" width="30" height="28" alt="" title="Home" data-mu-svgfallback="images/xf_iconredbt_poster_.png?crc=4219208458" src="images/blank.gif?crc=4208392903"/>
      </div>
     </div>
-    <div class="clearfix grpelem" id="ppu15134"><!-- column -->
-     <div class="clearfix colelem" id="pu15134"><!-- group -->
-      <div class="museBGSize grpelem shared_content" id="u15134" data-content-guid="u15134_content"><!-- content --></div>
-      <div class="grpelem shared_content" id="u15135" data-content-guid="u15135_content"><!-- simple frame --></div>
-     </div>
+    <div class="clearfix grpelem shared_content" id="pu15134" data-content-guid="pu15134_content"><!-- column -->
+     <div class="museBGSize colelem shared_content" id="u15134" data-content-guid="u15134_content"><!-- content --></div>
      <div class="clearfix colelem shared_content" id="u15178" data-content-guid="u15178_content"><!-- group -->
       <div class="clearfix grpelem" id="u15181-9"><!-- content -->
        <p>&nbsp;</p>
@@ -70,45 +65,54 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
-    <div class="clip_frame mse_pre_init shared_content" id="u4288" data-content-guid="u4288_content"><!-- svg -->
-     <img class="svg temp_no_img_src" id="u4286" data-orig-src="images/pasted-svg-37x375.svg?crc=292252780" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_5.png?crc=22883134" src="images/blank.gif?crc=4208392903"/>
+    <div class="clearfix grpelem shared_content" id="pu12869-4" data-content-guid="pu12869-4_content"><!-- group -->
+     <a class="nonblock nontext clearfix mse_pre_init" id="u12869-4" href="about.html"><!-- content --><p>ABOUT</p></a>
+     <a class="nonblock nontext clearfix mse_pre_init" id="u12875-4" href="what-we-do.html"><!-- content --><p>WHAT WE DO</p></a>
     </div>
-    <a class="nonblock nontext clearfix mse_pre_init shared_content" id="u12869-4" href="about.html" data-content-guid="u12869-4_content"><!-- content --><p>ABOUT</p></a>
-    <div class="clearfix grpelem shared_content" id="pu4238" data-content-guid="pu4238_content"><!-- group -->
-     <div class="clip_frame mse_pre_init" id="u4238"><!-- svg -->
-      <img class="svg temp_no_img_src" id="u4236" data-orig-src="images/pasted-svg-37x37.svg?crc=261623733" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_.png?crc=402573304" src="images/blank.gif?crc=4208392903"/>
+    <div class="clearfix grpelem" id="pu4238"><!-- group -->
+     <a class="nonblock nontext clip_frame mse_pre_init shared_content" id="u4238" href="https://www.facebook.com/xinfabsh/" target="_blank" data-content-guid="u4238_content"><!-- svg --><img class="svg temp_no_img_src" id="u4236" data-orig-src="images/pasted-svg-37x37.svg?crc=261623733" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_.png?crc=402573304" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame mse_pre_init shared_content" id="u4288" href="https://github.com/xinfab/" target="_blank" data-content-guid="u4288_content"><!-- svg --><img class="svg temp_no_img_src" id="u4286" data-orig-src="images/pasted-svg-37x375.svg?crc=292252780" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_5.png?crc=22883134" src="images/blank.gif?crc=4208392903"/></a>
+    </div>
+    <div class="clearfix grpelem shared_content" id="pu15135" data-content-guid="pu15135_content"><!-- group -->
+     <div class="grpelem shared_content" id="u15135" data-content-guid="u15135_content"><!-- simple frame --></div>
+     <div class="clearfix grpelem shared_content" id="u15136-6" data-content-guid="u15136-6_content"><!-- content -->
+      <p id="u15136-2"><span id="u15136">BE A PART OF IT</span></p>
+      <h1 class="Titles" id="u15136-4">WORK WITH US</h1>
      </div>
-     <div class="clip_frame mse_pre_init" id="u4248"><!-- svg -->
-      <img class="svg temp_no_img_src" id="u4246" data-orig-src="images/pasted-svg-37x372.svg?crc=353578390" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_2.png?crc=1264831" src="images/blank.gif?crc=4208392903"/>
-     </div>
-    </div>
-    <div class="clearfix grpelem shared_content" id="u15136-6" data-content-guid="u15136-6_content"><!-- content -->
-     <p id="u15136-2"><span id="u15136">BE A PART OF IT</span></p>
-     <h1 class="Titles" id="u15136-4">WORK WITH US</h1>
-    </div>
-    <a class="nonblock nontext clearfix mse_pre_init shared_content" id="u12875-4" href="what-we-do.html" data-content-guid="u12875-4_content"><!-- content --><p>WHAT WE DO</p></a>
-    <div class="clip_frame mse_pre_init shared_content" id="u4268" data-content-guid="u4268_content"><!-- svg -->
-     <img class="svg temp_no_img_src" id="u4266" data-orig-src="images/pasted-svg-37x373.svg?crc=4147184999" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_3.png?crc=480510062" src="images/blank.gif?crc=4208392903"/>
     </div>
     <a class="nonblock nontext clearfix mse_pre_init shared_content" id="u12887-4" href="join-us.html" data-content-guid="u12887-4_content"><!-- content --><p>JOIN US</p></a>
-    <div class="clearfix grpelem shared_content" id="pu4298" data-content-guid="pu4298_content"><!-- group -->
-     <div class="clip_frame mse_pre_init" id="u4298"><!-- svg -->
-      <img class="svg temp_no_img_src" id="u4296" data-orig-src="images/pasted-svg-37x376.svg?crc=506561864" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_6.png?crc=86780341" src="images/blank.gif?crc=4208392903"/>
-     </div>
-     <div class="clip_frame mse_pre_init" id="u4308"><!-- svg -->
-      <img class="svg temp_no_img_src" id="u4306" data-orig-src="images/pasted-svg-37x377.svg?crc=4214510376" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_7.png?crc=181492977" src="images/blank.gif?crc=4208392903"/>
-     </div>
-    </div>
+    <a class="nonblock nontext clip_frame mse_pre_init shared_content" id="u4248" href="https://www.linkedin.com/company/xinfab/" target="_blank" data-content-guid="u4248_content"><!-- svg --><img class="svg temp_no_img_src" id="u4246" data-orig-src="images/pasted-svg-37x372.svg?crc=353578390" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_2.png?crc=1264831" src="images/blank.gif?crc=4208392903"/></a>
     <a class="nonblock nontext clearfix mse_pre_init shared_content" id="u12881-4" href="services.html" data-content-guid="u12881-4_content"><!-- content --><p>SERVICES</p></a>
-    <div class="clip_frame mse_pre_init shared_content" id="u4278" data-content-guid="u4278_content"><!-- svg -->
-     <img class="svg temp_no_img_src" id="u4276" data-orig-src="images/pasted-svg-37x374.svg?crc=3968133634" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_4.png?crc=378616672" src="images/blank.gif?crc=4208392903"/>
-    </div>
-    <div class="clearfix grpelem shared_content" id="pu12356" data-content-guid="pu12356_content"><!-- group -->
-     <div class="clip_frame mse_pre_init" id="u12356"><!-- svg -->
-      <img class="svg temp_no_img_src" id="u12352" data-orig-src="images/3dhubs.svg?crc=272194916" width="120" height="36" alt="" data-mu-svgfallback="images/3dhubs_poster_.png?crc=3957849126" src="images/blank.gif?crc=4208392903"/>
+    <div class="clearfix grpelem" id="pu4268"><!-- group -->
+     <div class="clip_frame mse_pre_init shared_content" id="u4268" data-content-guid="u4268_content"><!-- svg -->
+      <img class="svg temp_no_img_src" id="u4266" data-orig-src="images/pasted-svg-37x373.svg?crc=4147184999" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_3.png?crc=480510062" src="images/blank.gif?crc=4208392903"/>
      </div>
-     <a class="nonblock nontext MuseLinkActive clearfix mse_pre_init shared_content" id="u12893-4" href="work-with-us.html" data-content-guid="u12893-4_content"><!-- content --><p>WORK WITH US</p></a>
+     <a class="nonblock nontext clip_frame mse_pre_init shared_content" id="u4308" href="http://weibo.com/XinFab" target="_blank" data-content-guid="u4308_content"><!-- svg --><img class="svg temp_no_img_src" id="u4306" data-orig-src="images/pasted-svg-37x377.svg?crc=4214510376" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_7.png?crc=181492977" src="images/blank.gif?crc=4208392903"/></a>
     </div>
+    <a class="nonblock nontext MuseLinkActive clearfix mse_pre_init shared_content" id="u12893-4" href="work-with-us.html" data-content-guid="u12893-4_content"><!-- content --><p>WORK WITH US</p></a>
+    <div class="clearfix grpelem" id="pu4278"><!-- group -->
+     <div class="clip_frame mse_pre_init shared_content" id="u4278" data-content-guid="u4278_content"><!-- svg -->
+      <img class="svg temp_no_img_src" id="u4276" data-orig-src="images/pasted-svg-37x374.svg?crc=3968133634" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_4.png?crc=378616672" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <a class="nonblock nontext clip_frame mse_pre_init shared_content" id="u4298" href="https://www.meetup.com/Xinfab-Fablab/" target="_blank" data-content-guid="u4298_content"><!-- svg --><img class="svg temp_no_img_src" id="u4296" data-orig-src="images/pasted-svg-37x376.svg?crc=506561864" width="35" height="35" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_6.png?crc=86780341" src="images/blank.gif?crc=4208392903"/></a>
+     <div class="PamphletWidget clearfix mse_pre_init" id="pamphletu30561"><!-- none box -->
+      <div class="popup_anchor" id="u30562popup">
+       <div class="ContainerGroup clearfix" id="u30562"><!-- none box -->
+        <div class="Container invi clearfix grpelem" id="u30573"><!-- group -->
+         <div class="clip_frame grpelem shared_content" id="u30762" data-content-guid="u30762_content"><!-- image -->
+          <img class="block temp_no_img_src" id="u30762_img" data-orig-src="images/xf_wx_qr.jpg?crc=4064785778" alt="" width="175" height="175" src="images/blank.gif?crc=4208392903"/>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem" id="u30582"><!-- none box -->
+       <div class="popup_anchor" id="u30584popup">
+        <div class="Thumb popup_element" id="u30584"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <a class="nonblock nontext clearfix mse_pre_init" id="u30945-4" href="https://www.3dhubs.com/shanghai/hubs/xinfab-%E6%96%B0fab/3dprint" target="_blank"><!-- content --><p>ORDER A 3D PRINT</p></a>
     <div class="grpelem shared_content" id="u15167" data-content-guid="u15167_content"><!-- simple frame --></div>
     <div class="museBGSize grpelem shared_content" id="u15164" data-content-guid="u15164_content"><!-- simple frame --></div>
     <div class="verticalspacer" data-offset-top="932" data-content-above-spacer="931" data-content-below-spacer="340"></div>
@@ -126,7 +130,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p>Find us at</p>
      </div>
      <div class="clearfix grpelem" id="u6100-6"><!-- content -->
-      <p id="u6100-2"><span id="u6100">665, Changhua Road (DT Space), Jing'an District</span></p>
+      <p id="u6100-2"><span id="u6100">Kangding East Rd, Lane 45, Building 5, Room 102 Jing'an District</span></p>
       <p id="u6100-4"><span id="u6100-3">200040&nbsp; Shanghai, China</span></p>
      </div>
      <div class="clearfix grpelem" id="u6103-6"><!-- content -->
@@ -138,7 +142,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p id="u6106-4"><span id="u6106-3">3dprint@xinfab.com</span></p>
      </div>
      <div class="clearfix grpelem" id="u6109-6"><!-- content -->
-      <p id="u6109-2"><span id="u6109">上海市，静安区，昌化路665号 （DT空间）</span></p>
+      <p id="u6109-2"><span id="u6109">上海市静安区康定东路45弄5号102室</span></p>
       <p id="u6109-4"><span id="u6109-3">200040&nbsp; 上海 中国</span></p>
      </div>
      <div class="clearfix grpelem" id="u6115-4"><!-- content -->
@@ -153,25 +157,42 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <div class="breakpoint" id="bp_1000" data-min-width="769" data-max-width="1000"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
     <span class="browser_width grpelem placeholder" data-placeholder-for="u12899-bw_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu6682_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu6682"><!-- group -->
+     <span class="browser_width mse_pre_init placeholder" data-placeholder-for="u6682-bw_content"><!-- placeholder node --></span>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="index.html" data-orig-id="u2355"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-1112635x589.svg?crc=3914277671" width="185" height="72" alt="" data-mu-svgfallback="images/pasted%20svg%201112635x589_poster_.png?crc=3820455764" data-orig-id="u2356" src="images/blank.gif?crc=4208392903"/></a>
+    </div>
     <span class="pointer_cursor Button clearfix mse_pre_init placeholder" data-placeholder-for="buttonu12919_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu15134"><!-- column -->
-     <span class="museBGSize colelem placeholder" data-placeholder-for="u15134_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u15178_content"><!-- placeholder node --></span>
-    </div>
-    <span class="nonblock nontext clearfix mse_pre_init placeholder" data-placeholder-for="u12869-4_content"><!-- placeholder node --></span>
-    <span class="clip_frame mse_pre_init placeholder" data-placeholder-for="u4288_content"><!-- placeholder node --></span>
-    <span class="nonblock nontext clearfix mse_pre_init placeholder" data-placeholder-for="u12875-4_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem" id="pu15135"><!-- group -->
-     <span class="grpelem placeholder" data-placeholder-for="u15135_content"><!-- placeholder node --></span>
-     <span class="clearfix grpelem placeholder" data-placeholder-for="u15136-6_content"><!-- placeholder node --></span>
-    </div>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu4238_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu15134_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu12869-4_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext clip_frame mse_pre_init placeholder" data-placeholder-for="u4288_content"><!-- placeholder node --></span>
     <span class="nonblock nontext clearfix mse_pre_init placeholder" data-placeholder-for="u12887-4_content"><!-- placeholder node --></span>
-    <span class="clip_frame mse_pre_init placeholder" data-placeholder-for="u4268_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu15135_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext clip_frame mse_pre_init placeholder" data-placeholder-for="u4238_content"><!-- placeholder node --></span>
     <span class="nonblock nontext clearfix mse_pre_init placeholder" data-placeholder-for="u12881-4_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu4298_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu12356_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pu4248"><!-- group -->
+     <span class="nonblock nontext clip_frame mse_pre_init placeholder" data-placeholder-for="u4248_content"><!-- placeholder node --></span>
+     <span class="clip_frame mse_pre_init placeholder" data-placeholder-for="u4268_content"><!-- placeholder node --></span>
+    </div>
+    <span class="nonblock nontext MuseLinkActive clearfix mse_pre_init placeholder" data-placeholder-for="u12893-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pu4298"><!-- group -->
+     <span class="nonblock nontext clip_frame mse_pre_init placeholder" data-placeholder-for="u4298_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clip_frame mse_pre_init placeholder" data-placeholder-for="u4308_content"><!-- placeholder node --></span>
+    </div>
+    <a class="nonblock nontext clearfix mse_pre_init" id="u30966-4" href="https://www.3dhubs.com/shanghai/hubs/xinfab-%E6%96%B0fab/3dprint" target="_blank"><!-- content --><p>3D PRINT</p></a>
+    <div class="PamphletWidget clearfix mse_pre_init temp_no_id" data-orig-id="pamphletu30561"><!-- none box -->
+     <div class="popup_anchor temp_no_id" data-orig-id="u30562popup">
+      <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u30562"><!-- none box -->
+       <div class="Container invi clearfix grpelem temp_no_id" data-orig-id="u30573"><!-- group -->
+        <span class="clip_frame grpelem placeholder" data-placeholder-for="u30762_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u30582"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u30584popup">
+       <div class="Thumb popup_element temp_no_id" data-orig-id="u30584"><!-- simple frame --></div>
+      </div>
+     </div>
+    </div>
     <span class="clip_frame mse_pre_init placeholder" data-placeholder-for="u4278_content"><!-- placeholder node --></span>
     <span class="grpelem placeholder" data-placeholder-for="u15167_content"><!-- placeholder node --></span>
     <span class="museBGSize grpelem placeholder" data-placeholder-for="u15164_content"><!-- placeholder node --></span>
@@ -180,115 +201,112 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    </div>
   </div>
   <div class="breakpoint" id="bp_768" data-min-width="481" data-max-width="768"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="position_content" id="page_position_content">
-     <div class="browser_width colelem temp_no_id" data-orig-id="u12899-bw">
-      <div class="temp_no_id" data-orig-id="u12899"><!-- group -->
-       <div class="clearfix" id="u12899_align_to_page">
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4288"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x375.svg?crc=292252780" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_5.png?crc=22883134" data-orig-id="u4286" src="images/blank.gif?crc=4208392903"/>
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pu12899"><!-- group -->
+     <span class="browser_width mse_pre_init placeholder" data-placeholder-for="u12899-bw_content"><!-- placeholder node --></span>
+     <div class="PamphletWidget clearfix mse_pre_init" id="pamphletu29539"><!-- none box -->
+      <div class="popup_anchor" id="u29540popup">
+       <div class="ContainerGroup clearfix" id="u29540"><!-- none box -->
+        <div class="pointer_cursor Container invi clearfix grpelem" id="u29551"><!-- column -->
+         <a class="block" href="about.html"><!-- Block link tag --></a>
+         <a class="nonblock nontext clearfix colelem shared_content" id="u29834-4" href="about.html" data-content-guid="u29834-4_content"><!-- content --><p>ABOUT</p></a>
+         <a class="nonblock nontext clearfix colelem shared_content" id="u29856-4" href="what-we-do.html" data-content-guid="u29856-4_content"><!-- content --><p>WHAT WE DO</p></a>
+         <a class="nonblock nontext clearfix colelem shared_content" id="u29882-4" href="join-us.html" data-content-guid="u29882-4_content"><!-- content --><p>JOIN US</p></a>
+         <a class="nonblock nontext clearfix colelem shared_content" id="u29869-4" href="services.html" data-content-guid="u29869-4_content"><!-- content --><p>SERVICES</p></a>
+         <a class="nonblock nontext MuseLinkActive clearfix colelem shared_content" id="u29895-4" href="work-with-us.html" data-content-guid="u29895-4_content"><!-- content --><p>WORK WITH US</p></a>
+         <a class="nonblock nontext clearfix colelem shared_content" id="u30546-4" href="https://www.3dhubs.com/shanghai/hubs/xinfab-%E6%96%B0fab/3dprint" target="_blank" data-content-guid="u30546-4_content"><!-- content --><p>ORDER A 3D PRINT</p></a>
         </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4238"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x37.svg?crc=261623733" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_.png?crc=402573304" data-orig-id="u4236" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4248"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x372.svg?crc=353578390" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_2.png?crc=1264831" data-orig-id="u4246" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clearfix grpelem" id="pu2355"><!-- column -->
-         <div class="clip_frame colelem temp_no_id shared_content" data-orig-id="u2355" data-content-guid="u2355_content"><!-- svg -->
-          <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-1112635x589.svg?crc=3914277671" width="153" height="59" alt="" data-mu-svgfallback="images/pasted%20svg%201112635x589_poster_.png?crc=3820455764" data-orig-id="u2356" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem" id="u29560"><!-- none box -->
+       <div class="popup_anchor" id="u29561popup">
+        <div class="Thumb popup_element clearfix" id="u29561"><!-- group -->
+         <div class="clip_frame clearfix grpelem shared_content" id="u9405" data-content-guid="u9405_content"><!-- image -->
+          <img class="position_content temp_no_img_src" id="u9405_img" data-orig-src="images/menu_black.png?crc=247701263" alt="" width="48" height="54" src="images/blank.gif?crc=4208392903"/>
          </div>
-         <div class="clearfix colelem" id="pu4268"><!-- group -->
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u4268"><!-- svg -->
-           <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x373.svg?crc=4147184999" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_3.png?crc=480510062" data-orig-id="u4266" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u4308"><!-- svg -->
-           <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x377.svg?crc=4214510376" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_7.png?crc=181492977" data-orig-id="u4306" src="images/blank.gif?crc=4208392903"/>
-          </div>
+         <div class="clip_frame grpelem shared_content" id="u29519" data-content-guid="u29519_content"><!-- image -->
+          <img class="block temp_no_img_src" id="u29519_img" data-orig-src="images/menu-alt-512.png?crc=100589061" alt="" width="48" height="48" src="images/blank.gif?crc=4208392903"/>
          </div>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u12356"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/3dhubs.svg?crc=272194916" width="108" height="30" alt="" data-mu-svgfallback="images/3dhubs_poster_.png?crc=3957849126" data-orig-id="u12352" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4298"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x376.svg?crc=506561864" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_6.png?crc=86780341" data-orig-id="u4296" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4278"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x374.svg?crc=3968133634" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_4.png?crc=378616672" data-orig-id="u4276" src="images/blank.gif?crc=4208392903"/>
         </div>
        </div>
       </div>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu15135"><!-- group -->
+    </div>
+    <div class="clearfix grpelem" id="ppu15134"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu15134"><!-- group -->
+      <span class="museBGSize grpelem placeholder" data-placeholder-for="u15134_content"><!-- placeholder node --></span>
       <span class="grpelem placeholder" data-placeholder-for="u15135_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u15136-6_content"><!-- placeholder node --></span>
-      <div class="clip_frame grpelem shared_content" id="u9405" data-content-guid="u9405_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u9405_img" data-orig-src="images/menu-alt-512.png?crc=100589061" alt="" width="48" height="43" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <span class="museBGSize grpelem placeholder" data-placeholder-for="u15134_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u12869-4_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u12875-4_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u12887-4_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u12881-4_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext MuseLinkActive clearfix grpelem placeholder" data-placeholder-for="u12893-4_content"><!-- placeholder node --></span>
      </div>
      <div class="clearfix colelem" id="pu15178"><!-- group -->
       <span class="clearfix grpelem placeholder" data-placeholder-for="u15178_content"><!-- placeholder node --></span>
       <span class="grpelem placeholder" data-placeholder-for="u15167_content"><!-- placeholder node --></span>
       <span class="museBGSize grpelem placeholder" data-placeholder-for="u15164_content"><!-- placeholder node --></span>
      </div>
-     <div class="verticalspacer" data-offset-top="932" data-content-above-spacer="931" data-content-below-spacer="554"></div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu6043_content"><!-- placeholder node --></span>
     </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu4238"><!-- group -->
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="https://www.facebook.com/xinfabsh/" target="_blank" data-orig-id="u4238"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x37.svg?crc=261623733" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_.png?crc=402573304" data-orig-id="u4236" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="https://www.linkedin.com/company/xinfab/" target="_blank" data-orig-id="u4248"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x372.svg?crc=353578390" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_2.png?crc=1264831" data-orig-id="u4246" src="images/blank.gif?crc=4208392903"/></a>
+     <div class="clip_frame mse_pre_init temp_no_id" data-orig-id="u4268"><!-- svg -->
+      <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x373.svg?crc=4147184999" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_3.png?crc=480510062" data-orig-id="u4266" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame mse_pre_init temp_no_id" data-orig-id="u4278"><!-- svg -->
+      <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x374.svg?crc=3968133634" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_4.png?crc=378616672" data-orig-id="u4276" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="https://github.com/xinfab/" target="_blank" data-orig-id="u4288"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x375.svg?crc=292252780" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_5.png?crc=22883134" data-orig-id="u4286" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="https://www.meetup.com/Xinfab-Fablab/" target="_blank" data-orig-id="u4298"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x376.svg?crc=506561864" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_6.png?crc=86780341" data-orig-id="u4296" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="http://weibo.com/XinFab" target="_blank" data-orig-id="u4308"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x377.svg?crc=4214510376" width="34" height="30" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_7.png?crc=181492977" data-orig-id="u4306" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id shared_content" href="index.html" data-orig-id="u2355" data-content-guid="u2355_content"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-1112635x589.svg?crc=3914277671" width="153" height="59" alt="" data-mu-svgfallback="images/pasted%20svg%201112635x589_poster_.png?crc=3820455764" data-orig-id="u2356" src="images/blank.gif?crc=4208392903"/></a>
+     <div class="PamphletWidget clearfix mse_pre_init temp_no_id" data-orig-id="pamphletu30561"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u30562popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u30562"><!-- none box -->
+        <div class="Container invi clearfix grpelem temp_no_id" data-orig-id="u30573"><!-- group -->
+         <span class="clip_frame grpelem placeholder" data-placeholder-for="u30762_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u30582"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u30584popup">
+        <div class="Thumb popup_element temp_no_id" data-orig-id="u30584"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="932" data-content-above-spacer="1023" data-content-below-spacer="377"></div>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu6043_content"><!-- placeholder node --></span>
    </div>
   </div>
   <div class="breakpoint" id="bp_480" data-max-width="480"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="position_content temp_no_id" data-orig-id="page_position_content">
-     <div class="browser_width colelem temp_no_id" data-orig-id="u12899-bw">
-      <div class="temp_no_id" data-orig-id="u12899"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u12899_align_to_page">
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4288"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x375.svg?crc=292252780" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_5.png?crc=22883134" data-orig-id="u4286" src="images/blank.gif?crc=4208392903"/>
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu12899"><!-- group -->
+     <span class="browser_width mse_pre_init placeholder" data-placeholder-for="u12899-bw_content"><!-- placeholder node --></span>
+     <div class="PamphletWidget clearfix mse_pre_init temp_no_id" data-orig-id="pamphletu29539"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u29540popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u29540"><!-- none box -->
+        <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u29551"><!-- column -->
+         <a class="block" href="about.html"><!-- Block link tag --></a>
+         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u29834-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u29856-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u29882-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u29869-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext MuseLinkActive clearfix colelem placeholder" data-placeholder-for="u29895-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u30546-4_content"><!-- placeholder node --></span>
         </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4238"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x37.svg?crc=261623733" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_.png?crc=402573304" data-orig-id="u4236" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clearfix grpelem temp_no_id" data-orig-id="pu2355"><!-- column -->
-         <span class="clip_frame colelem placeholder" data-placeholder-for="u2355_content"><!-- placeholder node --></span>
-         <div class="clearfix colelem" id="pu4248"><!-- group -->
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u4248"><!-- svg -->
-           <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x372.svg?crc=353578390" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_2.png?crc=1264831" data-orig-id="u4246" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u4268"><!-- svg -->
-           <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x373.svg?crc=4147184999" width="32" height="24" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_3.png?crc=480510062" data-orig-id="u4266" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u4308"><!-- svg -->
-           <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x377.svg?crc=4214510376" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_7.png?crc=181492977" data-orig-id="u4306" src="images/blank.gif?crc=4208392903"/>
-          </div>
-         </div>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4298"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x376.svg?crc=506561864" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_6.png?crc=86780341" data-orig-id="u4296" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4278"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x374.svg?crc=3968133634" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_4.png?crc=378616672" data-orig-id="u4276" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u29560"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u29561popup">
+        <div class="Thumb popup_element clearfix temp_no_id" data-orig-id="u29561"><!-- group -->
+         <span class="clip_frame clearfix grpelem placeholder" data-placeholder-for="u9405_content"><!-- placeholder node --></span>
+         <span class="clip_frame grpelem placeholder" data-placeholder-for="u29519_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
      </div>
+    </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu15134"><!-- column -->
      <div class="clearfix colelem temp_no_id" data-orig-id="pu15134"><!-- group -->
       <span class="museBGSize grpelem placeholder" data-placeholder-for="u15134_content"><!-- placeholder node --></span>
-      <div class="clearfix grpelem" id="pu9405"><!-- column -->
-       <span class="clip_frame colelem placeholder" data-placeholder-for="u9405_content"><!-- placeholder node --></span>
-       <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u12869-4_content"><!-- placeholder node --></span>
-       <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u12881-4_content"><!-- placeholder node --></span>
-      </div>
-      <div class="clearfix grpelem" id="pu12887-4"><!-- column -->
-       <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u12887-4_content"><!-- placeholder node --></span>
-       <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u12875-4_content"><!-- placeholder node --></span>
-       <span class="nonblock nontext MuseLinkActive clearfix colelem placeholder" data-placeholder-for="u12893-4_content"><!-- placeholder node --></span>
-      </div>
       <span class="grpelem placeholder" data-placeholder-for="u15135_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u15136-6_content"><!-- placeholder node --></span>
      </div>
@@ -297,9 +315,37 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <span class="grpelem placeholder" data-placeholder-for="u15167_content"><!-- placeholder node --></span>
       <span class="museBGSize grpelem placeholder" data-placeholder-for="u15164_content"><!-- placeholder node --></span>
      </div>
-     <div class="verticalspacer" data-offset-top="932" data-content-above-spacer="931" data-content-below-spacer="606"></div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu6043_content"><!-- placeholder node --></span>
     </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu4238"><!-- group -->
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="https://www.facebook.com/xinfabsh/" target="_blank" data-orig-id="u4238"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x37.svg?crc=261623733" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_.png?crc=402573304" data-orig-id="u4236" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="https://www.linkedin.com/company/xinfab/" target="_blank" data-orig-id="u4248"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x372.svg?crc=353578390" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_2.png?crc=1264831" data-orig-id="u4246" src="images/blank.gif?crc=4208392903"/></a>
+     <div class="clip_frame mse_pre_init temp_no_id" data-orig-id="u4268"><!-- svg -->
+      <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x373.svg?crc=4147184999" width="32" height="24" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_3.png?crc=480510062" data-orig-id="u4266" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame mse_pre_init temp_no_id" data-orig-id="u4278"><!-- svg -->
+      <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x374.svg?crc=3968133634" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_4.png?crc=378616672" data-orig-id="u4276" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="https://github.com/xinfab/" target="_blank" data-orig-id="u4288"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x375.svg?crc=292252780" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_5.png?crc=22883134" data-orig-id="u4286" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="https://www.meetup.com/Xinfab-Fablab/" target="_blank" data-orig-id="u4298"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x376.svg?crc=506561864" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_6.png?crc=86780341" data-orig-id="u4296" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame mse_pre_init temp_no_id" href="http://weibo.com/XinFab" target="_blank" data-orig-id="u4308"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/pasted-svg-37x377.svg?crc=4214510376" width="32" height="23" alt="" data-mu-svgfallback="images/pasted%20svg%2037x37_poster_7.png?crc=181492977" data-orig-id="u4306" src="images/blank.gif?crc=4208392903"/></a>
+     <span class="nonblock nontext clip_frame mse_pre_init placeholder" data-placeholder-for="u2355_content"><!-- placeholder node --></span>
+     <div class="PamphletWidget clearfix mse_pre_init temp_no_id" data-orig-id="pamphletu30561"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u30562popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u30562"><!-- none box -->
+        <div class="Container invi clearfix grpelem temp_no_id" data-orig-id="u30573"><!-- group -->
+         <span class="clip_frame grpelem placeholder" data-placeholder-for="u30762_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u30582"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u30584popup">
+        <div class="Thumb popup_element temp_no_id" data-orig-id="u30584"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="932" data-content-above-spacer="971" data-content-below-spacer="429"></div>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu6043_content"><!-- placeholder node --></span>
    </div>
   </div>
   <!-- Other scripts -->
@@ -308,13 +354,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.initWidget('#pamphletu30561', ['#bp_infinity', '#bp_1000', '#bp_768', '#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu30561 */
+Muse.Utils.initWidget('#pamphletu29539', ['#bp_768', '#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu29539 */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
