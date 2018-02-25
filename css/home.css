@@ -1,0 +1,165 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('fonts/cocogoose.eot'); /* IE9 Compat Modes */
+  src: url('fonts/cocogoose.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/cocogoose.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/cocogoose.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/cocogoose.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/cocogoose.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/roboto.eot'); /* IE9 Compat Modes */
+  src: url('fonts/roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/roboto.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/roboto.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.welcome{
+    display:flex; 
+    justify-content: center;
+		flex-wrap: wrap;
+		align-items: center;
+    height:100vh;
+  background: #fffc00 ;
+  background: -webkit-linear-gradient(to right bottom, #ebff0f, #fffc00 45%);
+  background:    -moz-linear-gradient(to right bottom, #ebff0f, #fffc00 45%);
+  background:         linear-gradient(to right bottom, #ebff0f, #fffc00 45%); 
+}
+
+.welcome-img{
+    max-width: 100%;
+	height: auto;
+	}
+
+.intro{
+    display: flex;
+    justify-content: center;
+		flex-wrap: nowrap;
+		align-items: center;
+    width: 100vw;
+    height:auto;
+  background: #fff ;
+}
+
+.intro-box{
+    max-width: auto;
+	height: auto;
+    margin: 60px;
+	}
+
+.intro-img{
+    max-height: auto;
+	max-width: 40vw;
+	}
+
+
+	h1{
+		font-family: "cocogoose";
+		font-size: 40px;
+		color: #000000;
+		padding: 10px; 
+		margin-left: 20px;
+		text-align: left;
+	}
+
+	p{
+		font-family: "roboto";
+		font-size: 20px;
+		color: #000000;
+		padding: 10px; 
+		margin-left: 20px;
+		text-align: left;
+	}
+
+	/* comment for my refernce */
+	.flex-container{
+		margin: auto;
+		width: 80vw;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+
+	.flex-item{
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+	}
+
+	.thumbnails{
+		position: relative;
+	}
+
+	.thumbnails:hover{
+		cursor: pointer;
+	}
+
+	.thumbnails:hover img{
+		opacity: 0.5;
+	}
+
+	.thumbnails:hover .mask{
+		transition: opacity 1s;
+		opacity: 1;
+	}
+
+	.mask{
+		opacity: 0;
+		position: absolute;
+		left: 50%;
+		top:50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.mask h2{
+		text-align: center;
+		margin: 5px 0px 50px 0px;
+	}
+
+	.mask p{
+		text-align: center;
+		margin: 5px 0px 50px 0px;
+	}
+
+	.footer-nav-wrapper {
+		margin-bottom: 50px;
+		height: 50px;
+		position: relative;
+	}
+
+	ul{
+		list-style: none;
+		display: inline-block;
+		position: absolute;
+		padding: 0px;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	ul li{
+		float: left;
+	}
+
+	li a{
+		display: block;
+		padding: 5px 15px 5px 15px;
+		text-decoration: none;
+		color: #666;
+	}
+
+
+	li a:hover {
+		color: #c1c1c1;
+		cursor: pointer;
+	}
